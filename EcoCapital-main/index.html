@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoCapital - Movilidad y Medio Ambiente</title>
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.png?v=1">
+    
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body class="page-inicio">
+
+    <header>
+        <nav class="navbar">
+   <div class="logo">
+    <a href="index.html" class="logo-link">
+        <img src="./images/logo.png" alt="Logo EcoCapital" class="logo-img">
+        <span class="logo-texto">EcoCapital</span>
+    </a>
+</div>
+            <ul class="menu">
+                <li><a href="#" class="active">Inicio</a></li>
+                <li><a href="./pages/rutas.html">Rutas</a></li>
+                <li><a href="./pages/aire.html">Aire</a></li>
+                <li><a href="./pages/reciclaje.html">Reciclaje</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="breadcrumb">
+        Inicio > EcoCapital
+    </div>
+
+    <main>
+        <section class="hero-inicio">
+            <div class="hero-text">
+                <h1>EcoCapital</h1>
+                <p>Tu guía inteligente de movilidad sostenible, monitoreo ambiental y reciclaje en la capital. Conéctate con una ciudad más limpia y consciente.</p>
+                <a href="#descubrir" class="btn-principal">Explorar Ahora</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://avantiaproject.eu/wp-content/uploads/2023/04/Bogota-avanaza-hacaia-la-movilidad-sostenible_interior-1.png">
+            </div>
+        </section>
+
+        <section id="descubrir" class="pilares-seccion">
+            <h2>Transformando la Movilidad y el Entorno Urbano</h2>
+            <p class="subtitulo">Descubre las herramientas que EcoRuta recopila en tiempo real para optimizar tu día a día en Bogotá.</p>
+            
+            <div class="pilares-grid">
+                <div class="pilar-tarjeta">
+                    <div class="pilar-icono">🚲</div>
+                    <h3>Movilidad Limpia</h3>
+                    <p>Planifica tus viajes utilizando la red de ciclorrutas y senderos ecológicos, reduciendo las emisiones de gases contaminantes.</p>
+                    <a href="./pages/rutas.html" class="btn-pilar-enlace">Ver Ciclorrutas →</a>
+                </div>
+
+                <div class="pilar-tarjeta">
+                    <div class="pilar-icono">🍃</div>
+                    <h3>Monitoreo de Aire</h3>
+                    <p>Visualiza el Índice de Calidad del Aire (ICA) antes de salir para proteger tu salud respiratoria durante tus recorridos.</p>
+                    <a href="./pages/aire.html" class="btn-pilar-enlace">Consultar Aire →</a>
+                </div>
+
+                <div class="pilar-tarjeta">
+                    <div class="pilar-icono">♻️</div>
+                    <h3>Gestión de Residuos</h3>
+                    <p>Ubica centros de acopio y aprende a separar correctamente tus materiales aprovechables con la normativa de la ciudad.</p>
+                    <a href="./pages/reciclaje.html" class="btn-pilar-enlace">Buscar EcoPuntos →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner-intermedio">
+            <div class="banner-contenido">
+                <h2>¿Sabías que Bogotá cuenta con más de 13.000 Ciclorrutas?</h2>
+                <p>Moverse en bicicleta o caminar por los corredores verdes no solo mejora tu salud, sino que reduce drásticamente el impacto ambiental y descongestiona el transporte público de la capital.</p>
+            </div>
+            <div class="banner-imagen-wrapper">
+                <img src=https://static01.nyt.com/images/2025/07/23/espanol/WELL-WORLD-CYCLING1-tjbv-ES-copy2/WELL-WORLD-CYCLING1-tjbv-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="Parque Simón Bolívar con zonas verdes e infraestructura para bicicletas">
+            </div>
+        </section>
+
+        <section class="pasos-seccion">
+            <h2>¿Cómo usar EcoCapital?</h2>
+            <div class="pasos-linea">
+                
+                <a href="./pages/aire.html" class="paso-bloque-link">
+                    <div class="paso-bloque">
+                        <span class="paso-numero">1</span>
+                        <h4>Consulta el Clima</h4>
+                        <p>Revisa el estado atmosférico en tiempo real desde nuestro panel de Calidad del Aire.</p>
+                    </div>
+                </a>
+
+                <a href="./pages/rutas.html" class="paso-bloque-link">
+                    <div class="paso-bloque">
+                        <span class="paso-numero">2</span>
+                        <h4>Elige tu Ruta</h4>
+                        <p>Selecciona tu circuito de preferencia según la distancia y el nivel de dificultad adecuado para ti.</p>
+                    </div>
+                </a>
+
+                <a href="./pages/reciclaje.html" class="paso-bloque-link">
+                    <div class="paso-bloque">
+                        <span class="paso-numero">3</span>
+                        <h4>Genera Impacto</h4>
+                        <p>Deposita tus materiales reciclables en los EcoPuntos distribuidos por las localidades autorizadas.</p>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <section class="formulario-section" id="reportes">
+            <h2>Reportes Ciudadanos</h2>
+            <p style="text-align: center; color: #666; margin-bottom: 20px;">Ayuda a mejorar las ciclorrutas de la capital reportando cualquier incidencia ambiental o vial.</p>
+            <form id="formulario">
+                <label for="nombre" class="sr-only">Nombre completo</label>
+                <input type="text" id="nombre" placeholder="Nombre completo" required>
+
+                <label for="correo" class="sr-only">Correo electrónico</label>
+                <input type="email" id="correo" placeholder="Correo electrónico" required>
+
+                <label for="descripcion" class="sr-only">Describe el problema</label>
+                <textarea id="descripcion" placeholder="Describe el problema detalladamente..." required></textarea>
+
+                <button type="submit">Enviar Reporte</button>
+            </form>
+        </section>
+
+        <section class="contacto-seccion" id="contacto">
+            <div class="contacto-info">
+                <h2>Contáctanos</h2>
+                <p><strong>Correo:</strong> ecocapital@gmail.com</p>
+                <p><strong>Teléfono:</strong> +57 300 123 4567</p>
+                <p><strong>Ubicación:</strong> Bogotá, Colombia</p>
+            </div>
+
+            <div class="redes-sociales">
+                <h2>Síguenos</h2>
+                <div class="iconos-redes">
+                    <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-contenido">
+            <div>
+                <h3>EcoRuta Bogotá</h3>
+                <p>Proyecto web ecológico enfocado en la sostenibilidad de la ciudad.</p>
+            </div>
+
+            <div>
+                <h3>Mapa del Sitio</h3>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="./pages/rutas.html">Rutas</a></li>
+                    <li><a href="./pages/aire.html">Calidad del Aire</a></li>
+                    <li><a href="./pages/reciclaje.html">Reciclaje</a></li>
+                    <li><a href="#reportes">Reportes</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="copy">&copy; 2026 EcoRuta Bogotá. Derechos Reservados.</p>
+    </footer>
+
+</body>
+</html>

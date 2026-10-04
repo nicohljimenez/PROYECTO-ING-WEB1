@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas Ecológicas - EcoCapital</title>
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/logo.png?v=1">
+    
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<script src="../js/rutas.js"></script>
+<body class="page-rutas">
+
+    <header>
+        <nav class="navbar">
+          <div class="logo">
+    <a href="../index.html" class="logo-link">
+        <img src="../images/logo.png" alt="Logo EcoCapital" class="logo-img">
+        <span class="logo-texto">EcoCapital</span>
+    </a>
+</div>
+            <ul class="menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#" class="active">Rutas</a></li>
+                <li><a href="./aire.html">Aire</a></li>
+                <li><a href="./reciclaje.html">Reciclaje</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="breadcrumb">
+        <a href="../index.html" style="text-decoration: none; color: inherit;">Inicio</a> > Rutas Ecológicas
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Rutas Ecológicas</h1>
+                <p>Descubre senderos y ciclorrutas sostenibles integradas con la naturaleza de Bogotá. Reduce tu huella de carbono explorando la ciudad de forma limpia.</p>
+            </div>
+            <div class="hero-image">
+                <img src="https://bogota.gov.co/sites/default/files/2019-06/victoria.jpg" alt="Ciclorruta verde en Bogotá">
+            </div>
+        </section>
+
+        <section class="rutas-container">
+            <h2>Circuitos Disponibles</h2>
+            <div class="filtros-container" style="text-align: center; margin-bottom: 20px;">
+    <button class="filtro-btn active" data-filter="todas">Todas</button>
+    <button class="filtro-btn" data-filter="baja">Fáciles</button>
+    <button class="filtro-btn" data-filter="media">Medias</button>
+    <button class="filtro-btn" data-filter="alta">Difíciles</button>
+</div>
+            <div class="rutas-grid">
+
+                <article class="ruta-tarjeta" data-tipo="cicloturismo" data-dificultad="baja">
+                    <div class="ruta-tarjeta-contenido">
+                        <div class="ruta-badge">Circular</div>
+                        <h3>Circuito Parque Central Simón Bolívar</h3>
+                        <p class="ruta-localidad"><strong>Localidad:</strong> Teusaquillo</p>
+                        
+                        <p class="ruta-descripcion">
+                            Recorrido recreativo e ideal para cicloturismo dentro del parque más emblemático de Bogotá. Un trazado cómodo y seguro que te permite recorrer las vías internas disfrutando del paisaje urbano, las zonas verdes y la tranquilidad del sector.
+                        </p>
+
+                        <div class="ruta-detalles-mini">
+                            <span>📏 8.11 km</span>
+                            <span>⛰️ Desnivel: Positivo 1 m / Negativo: 1 m</span>
+                            <span>🟡 Dificultad: Moderado</span>
+                        </div>
+                        
+                        <a href="https://es.wikiloc.com/rutas-cicloturismo/parque-central-simon-bolivar-bogota-137513582" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="btn-ver-recorrido">
+                            🚴 Ver ruta e instrucciones en Wikiloc →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="ruta-tarjeta" data-tipo="cicloturismo" data-dificultad="media">
+                    <div class="ruta-tarjeta-contenido">
+                        <div class="ruta-badge">Montaña</div>
+                        <h3>Bogotá Belisario - Alto de Patios</h3>
+                        <p class="ruta-localidad"><strong>Localidad:</strong> Usaquén / Chapinero</p>
+                        
+                        <p class="ruta-descripcion">
+                            Arranca desde el sector de Belisario en Usaquén y se conecta con el mítico ascenso al Alto de Patios. Es una ruta ideal para ciclistas que buscan un reto de montaña intermedio, con pendientes constantes y una excelente comunidad deportiva rodando a tu lado.
+                        </p>
+
+                        <div class="ruta-detalles-mini">
+                            <span>📏 5.88 km</span>
+                            <span>⛰️ Desnivel: Positivo: 427 m / Negativo: 40 m</span>
+                            <span>🟢 Dificultad: Fácil</span>
+                        </div>
+                        
+                        <a href="https://es.wikiloc.com/rutas-ciclismo/bogota-belisario-alto-de-patios-20503913" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="btn-ver-recorrido">
+                            🚴 Ver ruta e instrucciones en Wikiloc →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="ruta-tarjeta" data-tipo="ecologica" data-dificultad="alta">
+                    <div class="ruta-tarjeta-contenido">
+                        <div class="ruta-badge">Urbano</div>
+                        <h3>Al Caravana Fucha</h3>
+                        <p class="ruta-localidad"><strong>Localidad:</strong> San Cristóbal / Santa Fe</p>
+                        
+                        <p class="ruta-descripcion">
+                            Un recorrido exigente y cargado de historia que bordea la cuenca alta del Río Fucha. Esta ruta combina ascensos por pavimentado urbano y tramos de balasto o destapado de montaña, ofreciendo un contacto directo con los paisajes verdes del suroriente de la capital.
+                        </p>
+
+                        <div class="ruta-detalles-mini">
+                            <span>📏 4.21 km</span>
+                            <span>⛰️ Desnivel: Positivo: 7 m / Negativo: 0 m</span>
+                            <span>🟡 Dificultad: Moderado</span>
+                        </div>
+                        
+                        <a href="https://es.wikiloc.com/rutas-ciclismo/al-caravana-fuhucha-57168742" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="btn-ver-recorrido">
+                            🥾 Ver ruta e instrucciones en Wikiloc →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="ruta-tarjeta" data-tipo="cicloturismo" data-dificultad="alta">
+                    <div class="ruta-tarjeta-contenido">
+                        <div class="ruta-badge">Ecológico</div>
+                        <h3>Ruta Humedal Jaboque</h3>
+                        <p class="ruta-localidad"><strong>Localidad:</strong> Engativá</p>
+                        
+                        <p class="ruta-descripcion">
+                            Un bicipaseo tranquilo y plano que bordea uno de los ecosistemas hídricos más importantes de Engativá. Es una ruta perfecta para conectar con la biodiversidad de la sabana, observar aves migratorias y disfrutar de un recorrido relajado lejos del tráfico pesado.
+                        </p>
+
+                        <div class="ruta-detalles-mini">
+                            <span>📏 16.29 km</span>
+                            <span>⛰️ Desnivel: Positivo: 35 m / Negativo: 35 m</span>
+                            <span>🔴 Dificultad: Difícil</span>
+                        </div>
+                        
+                        <a href="https://es.wikiloc.com/rutas-cicloturismo/bogota-parque-el-virrey-patios-la-calera-bogota-parque-el-virrey-55097479" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="btn-ver-recorrido">
+                            🚴 Ver ruta e instrucciones en Wikiloc →
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="mapa-seccion">
+            <div class="mapa-info">
+                <h2>Red de Conectividad Verde</h2>
+                <p>Bogotá cuenta con más de 560 kilómetros de infraestructura para bicicletas y senderos ecológicos regulados. Elige

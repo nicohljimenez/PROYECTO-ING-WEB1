@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - EcoCapital</title>
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/logo.png?v=1">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="page-contacto">
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html" class="logo-link">
+                    <img src="../images/logo.png" alt="Logo EcoCapital" class="logo-img">
+                    <span class="logo-texto">EcoCapital</span>
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./rutas.html">Rutas</a></li>
+                <li><a href="./aire.html">Aire</a></li>
+                <li><a href="./reciclaje.html">Reciclaje</a></li>
+                <li><a href="#" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="breadcrumb">
+        <a href="../index.html" style="text-decoration: none; color: inherit;">Inicio</a> > Contacto
+    </div>
+
+    <main class="contacto-main-container">
+        <section class="contacto-info-panel">
+            <div class="contacto-header-text">
+                <h1>Ponte en Contacto</h1>
+                <p>¿Tienes dudas sobre las ciclorrutas, sugerencias para nuevos EcoPuntos de reciclaje o quieres reportar alguna incidencia ambiental en Bogotá? Escríbenos y nuestro equipo te responderá en breve.</p>
+            </div>
+            
+            <div class="contacto-canales-grid">
+                <div class="canal-tarjeta">
+                    <span class="canal-icono">📍</span>
+                    <div>
+                        <h4>Oficina Central</h4>
+                        <p>Bogotá, Colombia</p>
+                    </div>
+                </div>
+                <div class="canal-tarjeta">
+                    <span class="canal-icono">✉️</span>
+                    <div>
+                        <h4>Correo Electrónico</h4>
+                        <p>ecocapital@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contacto-imagen-wrapper">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1J-iBm1VK0a4oqcVHPIhQu5uf2L3u1bgTg0OzRJRgFmQj6L5WMjVvGC0&s=10" alt="Edificio corporativo moderno">
+            </div>
+        </section>
+
+        <section class="contacto-formulario-panel">
+            <div class="formulario-box">
+                <h2>Formulario de Mensaje</h2>
+                <p>Completa los campos obligatorios para procesar tu solicitud.</p>
+                
+                <form id="formulario-contacto" class="formulario-contacto-real">
+                    <div class="input-group">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required>
+                    </div>
+
+                    <div class="input-group">
+                        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="../js/contacto.js"></script>
+</body>
+</html>
